@@ -8,7 +8,7 @@ const Product = ({}) => {
         return (
           <div key={`${i}-product`} className='product-container flex-center'>
 
-            <div className='flex-center'>
+            <div className='flex-center image-name-box'>
 
               <div>
                 <img
@@ -23,12 +23,10 @@ const Product = ({}) => {
               </div>
             </div>
 
-            <div className='quantity-box'>
-              <p>{el.quantity}</p>
-            </div>
 
-            <div>
-              <p>${el.unitPrice}</p>
+            <div className='quantity-price-box'>
+              <p>Qty: {el.quantity}</p>
+              <p>Each: ${el.unitPrice}</p>
             </div>
 
           </div>

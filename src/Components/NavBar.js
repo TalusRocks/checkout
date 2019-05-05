@@ -2,8 +2,8 @@ import React from 'react'
 
 const NavBar = ({}) => {
   return (
-    <div>
-      NAV BAR
+    <div className='flex-center navbar'>
+      <p>Assemble Store</p>
     </div>
   )
 }

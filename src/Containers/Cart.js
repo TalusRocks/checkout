@@ -21,7 +21,7 @@ class Cart extends Component {
   render () {
     return (
       <div className='cart-wrapper'>
-        <h2 className='cart-header'>Your Cart</h2>
+        <h2>Your Cart</h2>
         <Product />
         <p className='subtotal'>SUBTOTAL: ${this.subTotal()}</p>
         <Link to='/shipping'>
