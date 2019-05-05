@@ -7,3 +7,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.product-container {
+  justify-content: space-around;
+  margin: 2em;
+}
+
+.product-image {
+  max-width: 300px;
+}
+
+.name-sku-box {
+  margin-left: 4em;
+}
