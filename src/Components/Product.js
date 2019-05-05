@@ -7,9 +7,7 @@ const Product = ({}) => {
       { mockProducts.map((el, i) => {
         return (
           <div key={`${i}-product`} className='product-container flex-center'>
-
             <div className='flex-center image-name-box'>
-
               <div>
                 <img
                   src={require(`../images/${el.image}`)}
@@ -23,12 +21,10 @@ const Product = ({}) => {
               </div>
             </div>
 
-
             <div className='quantity-price-box'>
               <p>Qty: {el.quantity}</p>
               <p>Each: ${el.unitPrice}</p>
             </div>
-
           </div>
         )
       })}

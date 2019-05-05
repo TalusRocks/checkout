@@ -18,6 +18,9 @@ class Cart extends Component {
     return total
   }
 
+  // To get the 'Your Cart / Quantity / Price' header to properly align, I think it would have been better to use CSS Grid for alignment.
+  // The way I've architected the components and used flexbox made aligning titles and items trickier than it needed to be.
+
   render () {
     return (
       <div className='cart-wrapper'>
