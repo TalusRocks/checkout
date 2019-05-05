@@ -9,6 +9,7 @@ const Product = ({}) => {
           <div key={`${i}-product`} className='product-container flex-center'>
 
             <div className='flex-center'>
+
               <div>
                 <img
                   src={require(`../images/${el.image}`)}
@@ -22,12 +23,12 @@ const Product = ({}) => {
               </div>
             </div>
 
-            <div>
-              <p>qty: {el.quantity}</p>
+            <div className='quantity-box'>
+              <p>{el.quantity}</p>
             </div>
 
             <div>
-              <p>price: {el.unitPrice}</p>
+              <p>${el.unitPrice}</p>
             </div>
 
           </div>

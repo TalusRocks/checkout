@@ -8,10 +8,47 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* GENERAL */
+
+h2 {
+  font-size: 2em;
+}
+
 .flex-center {
   display: flex;
   align-items: center;
 }
+
+.right {
+  display: flex;
+  margin-left: auto;
+  margin-right: 10em;
+}
+
+button {
+  height: 40px;
+  background-color: #1976d2;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 22px;
+}
+
+/* CART */
+.cart-wrapper {
+  margin: 2em;
+}
+
+.cart-header {
+  margin-left: 6em;
+}
+
+.subtotal {
+  text-align: right;
+  margin-right: 10em;
+}
+
+/* PRODUCT */
 
 .product-container {
   justify-content: space-around;
@@ -24,4 +61,10 @@ body {
 
 .name-sku-box {
   margin-left: 4em;
+}
+
+.quantity-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
