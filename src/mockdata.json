@@ -1,0 +1,23 @@
+[
+  {
+    "sku": 1234,
+    "unitPrice": 49.00,
+    "name": "Cascade Jersey",
+    "quantity": 3,
+    "image": "coc-ss-jersey.jpg"
+  },
+  {
+    "sku": 2267,
+    "unitPrice": 39.00,
+    "name": "Suunto Thumb Compass",
+    "quantity": 2,
+    "image": "suunto-thumb-compass.jpg"
+  },
+  {
+    "sku": 3789,
+    "unitPrice": 59.00,
+    "name": "Trimtex Gaiters",
+    "quantity": 1,
+    "image": "trimtex-gaiters.jpg"
+  }
+]
