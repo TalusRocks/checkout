@@ -7,7 +7,7 @@ body {
 
 /* GENERAL */
 
-h2, h3, p {
+h2, h3, p, th, td {
   font-family: 'Roboto', sans-serif;
   color: #4f4f4f;
 }
@@ -54,6 +54,30 @@ button {
 .subtotal {
   font-weight: bold;
   text-align: right;
+}
+
+/* TABLE */
+
+th {
+  text-align: left;
+  padding: 0em;
+}
+
+thead > tr {
+  vertical-align: bottom;
+}
+
+.left-pad {
+  padding-left: 3em;
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.title {
+  font-size: 2.5em;
 }
 
 /* PRODUCT */
